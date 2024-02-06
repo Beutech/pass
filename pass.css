@@ -1,0 +1,134 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 100px;
+}
+.passwordgenerator{
+    width: 20.5vw;
+    height: 40px;
+    background-color: rgb(35, 33, 33);
+    color: rgb(196, 192, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.password{
+    width: 20vw;
+    height: 40px;
+    background-color: rgb(38, 37, 37);
+    color: gray;
+    display: flex;
+    align-items: center;
+    padding-left: 13px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+
+}
+.charater{ 
+   color: rgb(219, 216, 216);
+  padding-top: 10px;
+}
+.roller{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.whitedot{
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 7px;
+}
+.line{
+    width: 15vw;
+    height: 1vh;
+    background-color: rgb(25, 25, 25);
+    margin-top: 10px;
+}
+.charaterlength{
+    width: 19.9vw; 
+    height: 50vh;
+    background-color: rgb(38, 37, 37);  
+    padding-left: 13px;
+}
+.includeone{
+    margin-top: 15px;
+    color: rgb(219, 216, 216);
+    display: flex;
+    flex-direction: row;
+}
+.boxone{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.includetwo{
+    margin-top: 7px;
+    color: rgb(219, 216, 216);
+    display: flex;
+    flex-direction: row;
+}
+.boxtwo{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    margin-right: 25px;
+    margin-top: 7px;
+}
+.includethree{
+    margin-top: 7px;
+    color: rgb(219, 216, 216);
+    display: flex;
+    flex-direction: row;
+}
+.boxthree{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    margin-right: 25px;
+    margin-top: 7px;
+}
+.includefour{
+    margin-top: 7px;
+    color: rgb(219, 216, 216);
+    display: flex;
+    flex-direction: row;
+}
+.boxfour{
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    margin-right: 25px;
+    margin-top: 7px;
+}
+.strength{
+    display: flex;
+    flex-direction: row;
+    width: 16.5vw;
+    height: 35px;
+    background-color: rgb(24, 24, 24);
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 7px;
+    color: rgb(172, 170, 170);
+    font-size: 10px;
+    padding-left: 20px;
+}
+.generate{
+    background-color: rgb(27, 133, 27);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18vw;
+    height: 35px;
+    margin-top: 17px;
+}
